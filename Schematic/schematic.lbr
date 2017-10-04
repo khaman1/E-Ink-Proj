@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="8.3.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+</packages>
+<symbols>
+<symbol name="RES3_1_N">
+<description>Original name &lt;b&gt;Res3_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="49.53" y="190.5" visible="off" length="short" rot="R90"/>
+<pin name="2" x="49.53" y="203.2" visible="off" length="short" rot="R270"/>
+<wire x1="49.53" y1="200.66" x2="48.768" y2="199.898" width="0.254" layer="94"/>
+<wire x1="48.768" y1="199.898" x2="50.292" y2="198.374" width="0.254" layer="94"/>
+<wire x1="50.292" y1="198.374" x2="48.768" y2="196.85" width="0.254" layer="94"/>
+<wire x1="48.768" y1="196.85" x2="50.292" y2="195.326" width="0.254" layer="94"/>
+<wire x1="50.292" y1="195.326" x2="48.768" y2="193.802" width="0.254" layer="94"/>
+<wire x1="48.768" y1="193.802" x2="49.53" y2="193.04" width="0.254" layer="94"/>
+<text x="50.546" y="198.374" size="2.54" layer="95" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="0" y="0" size="2.54" layer="96" font="vector" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="610114249121_1_N">
+<description>Original name &lt;b&gt;610114249121_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="52.07" y="87.63" visible="pin" length="middle"/>
+<pin name="2" x="52.07" y="90.17" visible="pin" length="middle"/>
+<pin name="3" x="52.07" y="92.71" visible="pin" length="middle"/>
+<pin name="4" x="52.07" y="95.25" visible="pin" length="middle"/>
+<pin name="5" x="52.07" y="97.79" visible="pin" length="middle"/>
+<pin name="6" x="52.07" y="100.33" visible="pin" length="middle"/>
+<pin name="7" x="52.07" y="102.87" visible="pin" length="middle"/>
+<pin name="8" x="72.39" y="87.63" visible="pin" length="middle" rot="R180"/>
+<pin name="9" x="72.39" y="90.17" visible="pin" length="middle" rot="R180"/>
+<pin name="10" x="72.39" y="92.71" visible="pin" length="middle" rot="R180"/>
+<pin name="11" x="72.39" y="95.25" visible="pin" length="middle" rot="R180"/>
+<pin name="12" x="72.39" y="97.79" visible="pin" length="middle" rot="R180"/>
+<pin name="13" x="72.39" y="100.33" visible="pin" length="middle" rot="R180"/>
+<pin name="14" x="72.39" y="102.87" visible="pin" length="middle" rot="R180"/>
+<wire x1="57.15" y1="85.09" x2="57.15" y2="105.41" width="0.254" layer="94"/>
+<wire x1="57.15" y1="85.09" x2="67.31" y2="85.09" width="0.254" layer="94"/>
+<wire x1="57.15" y1="105.41" x2="67.31" y2="105.41" width="0.254" layer="94"/>
+<wire x1="67.31" y1="105.41" x2="67.31" y2="85.09" width="0.254" layer="94"/>
+<text x="57.15" y="82.55" size="2.54" layer="95" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAPC_1N_0603_X7R_100V_10%_1_N">
+<description>Original name &lt;b&gt;CAPC_1n_0603_X7R_100V_10%_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="274.32" y="212.09" visible="off" length="middle" rot="R180"/>
+<pin name="2" x="269.24" y="212.09" visible="off" length="middle"/>
+<wire x1="271.272" y1="212.09" x2="270.51" y2="212.09" width="0.254" layer="94"/>
+<wire x1="273.05" y1="212.09" x2="272.288" y2="212.09" width="0.254" layer="94"/>
+<wire x1="271.272" y1="214.376" x2="271.272" y2="209.804" width="0.254" layer="94"/>
+<wire x1="272.288" y1="214.376" x2="272.288" y2="209.804" width="0.254" layer="94"/>
+<text x="267.97" y="213.36" size="2.54" layer="95" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="0" y="0" size="2.54" layer="96" font="vector" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="XT2_1_N">
+<description>Original name &lt;b&gt;XT2_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="243.84" y="204.47" visible="off" length="middle"/>
+<pin name="2" x="251.46" y="204.47" visible="off" length="middle" rot="R180"/>
+<wire x1="246.126" y1="206.248" x2="246.126" y2="202.438" width="0.254" layer="94"/>
+<wire x1="249.174" y1="206.248" x2="249.174" y2="202.438" width="0.254" layer="94"/>
+<wire x1="246.888" y1="206.248" x2="248.412" y2="206.248" width="0.254" layer="94"/>
+<wire x1="248.412" y1="206.248" x2="248.412" y2="202.438" width="0.254" layer="94"/>
+<wire x1="248.412" y1="202.438" x2="246.888" y2="202.438" width="0.254" layer="94"/>
+<wire x1="246.888" y1="202.438" x2="246.888" y2="206.248" width="0.254" layer="94"/>
+<wire x1="249.174" y1="204.47" x2="249.682" y2="204.47" width="0.254" layer="94"/>
+<wire x1="245.618" y1="204.47" x2="246.126" y2="204.47" width="0.254" layer="94"/>
+<text x="242.57" y="205.74" size="2.54" layer="95" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="0" y="0" size="2.54" layer="96" font="vector" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="INDUCTOR_1_N">
+<description>Original name &lt;b&gt;Inductor_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="384.81" y="207.01" visible="off" length="short"/>
+<pin name="2" x="400.05" y="207.01" visible="off" length="short" rot="R180"/>
+<wire x1="388.62" y1="208.28" x2="387.35" y2="207.01" width="0.254" layer="94" curve="90"/>
+<wire x1="389.89" y1="207.01" x2="388.62" y2="208.28" width="0.254" layer="94" curve="90"/>
+<wire x1="391.16" y1="208.28" x2="389.89" y2="207.01" width="0.254" layer="94" curve="90"/>
+<wire x1="392.43" y1="207.01" x2="391.16" y2="208.28" width="0.254" layer="94" curve="90"/>
+<wire x1="393.7" y1="208.28" x2="392.43" y2="207.01" width="0.254" layer="94" curve="90"/>
+<wire x1="394.97" y1="207.01" x2="393.7" y2="208.28" width="0.254" layer="94" curve="90"/>
+<wire x1="396.24" y1="208.28" x2="394.97" y2="207.01" width="0.254" layer="94" curve="90"/>
+<wire x1="397.51" y1="207.01" x2="396.24" y2="208.28" width="0.254" layer="94" curve="90"/>
+<text x="387.35" y="208.28" size="2.54" layer="95" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="0" y="0" size="2.54" layer="96" font="vector" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="SW4_1_N">
+<description>Original name &lt;b&gt;SW4_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="212.09" y="96.52" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">1</text>
+<pin name="1" x="209.55" y="96.52" visible="off" length="middle"/>
+<text x="227.33" y="96.52" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">2</text>
+<pin name="2" x="229.87" y="96.52" visible="off" length="middle" rot="R180"/>
+<text x="212.09" y="93.98" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">3</text>
+<pin name="3" x="209.55" y="93.98" visible="off" length="middle"/>
+<text x="227.33" y="93.98" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">4</text>
+<pin name="4" x="229.87" y="93.98" visible="off" length="middle" rot="R180"/>
+<wire x1="223.51045" y1="95.1519625" x2="223.498484375" y2="95.103725" width="0.254" layer="94" curve="354.39231"/>
+<wire x1="215.9" y1="96.52" x2="215.9" y2="97.028" width="0.254" layer="94"/>
+<wire x1="215.9" y1="96.52" x2="223.52" y2="96.52" width="0.254" layer="94"/>
+<wire x1="215.9" y1="97.028" x2="223.52" y2="97.028" width="0.254" layer="94"/>
+<wire x1="223.52" y1="97.028" x2="223.52" y2="96.52" width="0.254" layer="94"/>
+<wire x1="218.186" y1="97.028" x2="218.186" y2="98.044" width="0.254" layer="94"/>
+<wire x1="218.186" y1="97.028" x2="221.234" y2="97.028" width="0.254" layer="94"/>
+<wire x1="218.186" y1="98.044" x2="221.234" y2="98.044" width="0.254" layer="94"/>
+<wire x1="221.234" y1="98.044" x2="221.234" y2="97.028" width="0.254" layer="94"/>
+<wire x1="223.52" y1="95.25" x2="224.79" y2="95.25" width="0.254" layer="94"/>
+<wire x1="224.79" y1="95.25" x2="224.79" y2="96.52" width="0.254" layer="94"/>
+<wire x1="224.79" y1="93.98" x2="224.79" y2="95.25" width="0.254" layer="94"/>
+<wire x1="215.9" y1="95.25" x2="214.63" y2="95.25" width="0.254" layer="94"/>
+<wire x1="214.63" y1="95.25" x2="214.63" y2="96.52" width="0.254" layer="94"/>
+<wire x1="214.63" y1="93.98" x2="214.63" y2="95.25" width="0.254" layer="94"/>
+<wire x1="216.90645" y1="95.1519625" x2="216.894484375" y2="95.103725" width="0.254" layer="94" curve="354.39231"/>
+<text x="218.44" y="99.06" size="2.54" layer="95" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="0" y="0" size="2.54" layer="96" font="vector" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="SX1509_1_N">
+<description>Original name &lt;b&gt;SX1509_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="137.16" y="97.79" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">12</text>
+<pin name="VDDM" x="133.35" y="97.79" visible="pin"/>
+<text x="137.16" y="90.17" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">23</text>
+<pin name="RESET" x="133.35" y="90.17" visible="pin"/>
+<text x="137.16" y="85.09" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">24</text>
+<pin name="SDA" x="133.35" y="85.09" visible="pin"/>
+<text x="137.16" y="82.55" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">25</text>
+<pin name="SCL" x="133.35" y="82.55" visible="pin"/>
+<text x="137.16" y="72.39" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">9</text>
+<pin name="INT" x="133.35" y="72.39" visible="pin"/>
+<text x="137.16" y="69.85" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">11</text>
+<pin name="OSCIO" x="133.35" y="69.85" visible="pin"/>
+<text x="137.16" y="59.69" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">26</text>
+<pin name="ADDR0" x="133.35" y="59.69" visible="pin"/>
+<text x="137.16" y="57.15" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">10</text>
+<pin name="ADDR1" x="133.35" y="57.15" visible="pin"/>
+<text x="137.16" y="46.99" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">9</text>
+<pin name="GND" x="133.35" y="46.99" visible="pin"/>
+<text x="177.8" y="97.79" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">4</text>
+<pin name="VCC1" x="181.61" y="97.79" visible="pin" rot="R180"/>
+<text x="177.8" y="95.25" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">27</text>
+<pin name="I/O0" x="181.61" y="95.25" visible="pin" rot="R180"/>
+<text x="177.8" y="92.71" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">28</text>
+<pin name="I/O1" x="181.61" y="92.71" visible="pin" rot="R180"/>
+<text x="177.8" y="90.17" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">1</text>
+<pin name="I/O2" x="181.61" y="90.17" visible="pin" rot="R180"/>
+<text x="177.8" y="87.63" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">2</text>
+<pin name="I/O3" x="181.61" y="87.63" visible="pin" rot="R180"/>
+<text x="177.8" y="85.09" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">5</text>
+<pin name="I/O4" x="181.61" y="85.09" visible="pin" rot="R180"/>
+<text x="177.8" y="82.55" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">6</text>
+<pin name="I/O5" x="181.61" y="82.55" visible="pin" rot="R180"/>
+<text x="177.8" y="80.01" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">7</text>
+<pin name="I/O6" x="181.61" y="80.01" visible="pin" rot="R180"/>
+<text x="177.8" y="77.47" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">8</text>
+<pin name="I/O7" x="181.61" y="77.47" visible="pin" rot="R180"/>
+<text x="177.8" y="67.31" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">18</text>
+<pin name="VCC2" x="181.61" y="67.31" visible="pin" rot="R180"/>
+<text x="177.8" y="64.77" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">13</text>
+<pin name="I/O8" x="181.61" y="64.77" visible="pin" rot="R180"/>
+<text x="177.8" y="62.23" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">14</text>
+<pin name="I/O9" x="181.61" y="62.23" visible="pin" rot="R180"/>
+<text x="177.8" y="59.69" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">15</text>
+<pin name="I/O10" x="181.61" y="59.69" visible="pin" rot="R180"/>
+<text x="177.8" y="57.15" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">16</text>
+<pin name="I/O11" x="181.61" y="57.15" visible="pin" rot="R180"/>
+<text x="177.8" y="54.61" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">19</text>
+<pin name="I/O12" x="181.61" y="54.61" visible="pin" rot="R180"/>
+<text x="177.8" y="52.07" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">20</text>
+<pin name="I/O13" x="181.61" y="52.07" visible="pin" rot="R180"/>
+<text x="177.8" y="49.53" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">21</text>
+<pin name="I/O14" x="181.61" y="49.53" visible="pin" rot="R180"/>
+<text x="177.8" y="46.99" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">22</text>
+<pin name="I/O15" x="181.61" y="46.99" visible="pin" rot="R180"/>
+<wire x1="140.97" y1="41.91" x2="140.97" y2="102.87" width="0.254" layer="94"/>
+<wire x1="140.97" y1="41.91" x2="173.99" y2="41.91" width="0.254" layer="94"/>
+<wire x1="140.97" y1="102.87" x2="173.99" y2="102.87" width="0.254" layer="94"/>
+<wire x1="173.99" y1="102.87" x2="173.99" y2="41.91" width="0.254" layer="94"/>
+<text x="140.97" y="102.87" size="2.54" layer="95" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="HEADER_2_1_N">
+<description>Original name &lt;b&gt;Header_2_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="33.02" y="55.88" visible="pin" length="middle" rot="R90"/>
+<pin name="2" x="30.48" y="55.88" visible="pin" length="middle" rot="R90"/>
+<wire x1="27.94" y1="60.96" x2="27.94" y2="68.58" width="0.254" layer="94"/>
+<wire x1="27.94" y1="60.96" x2="35.56" y2="60.96" width="0.254" layer="94"/>
+<wire x1="27.94" y1="68.58" x2="35.56" y2="68.58" width="0.254" layer="94"/>
+<wire x1="35.56" y1="68.58" x2="35.56" y2="60.96" width="0.254" layer="94"/>
+<text x="27.94" y="68.58" size="2.54" layer="95" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="AMS1117_1_N">
+<description>Original name &lt;b&gt;AMS1117_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="65.405" y="52.07" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">1</text>
+<pin name="GND" x="63.5" y="52.07" visible="pin" length="middle"/>
+<text x="84.455" y="52.07" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">2</text>
+<pin name="OUT@1" x="86.36" y="52.07" visible="pin" length="middle" rot="R180"/>
+<text x="65.405" y="56.134" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">3</text>
+<pin name="IN" x="63.5" y="56.134" visible="pin" length="middle"/>
+<text x="84.455" y="56.134" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">4</text>
+<pin name="OUT@2" x="86.36" y="56.134" visible="pin" length="middle" rot="R180"/>
+<wire x1="67.31" y1="48.26" x2="67.31" y2="58.42" width="0.254" layer="94"/>
+<wire x1="67.31" y1="48.26" x2="82.55" y2="48.26" width="0.254" layer="94"/>
+<wire x1="67.31" y1="58.42" x2="82.55" y2="58.42" width="0.254" layer="94"/>
+<wire x1="82.55" y1="58.42" x2="82.55" y2="48.26" width="0.254" layer="94"/>
+<text x="67.31" y="58.42" size="2.54" layer="95" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="E-INK_LCD_1_N">
+<description>Original name &lt;b&gt;E-Ink_LCD_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="445.77" y="153.67" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">1</text>
+<pin name="3.3V" x="441.96" y="153.67" visible="pin"/>
+<text x="445.77" y="151.13" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">2</text>
+<pin name="GND" x="441.96" y="151.13" visible="pin"/>
+<text x="445.77" y="148.59" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">3</text>
+<pin name="MOSI" x="441.96" y="148.59" visible="pin"/>
+<text x="445.77" y="146.05" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">4</text>
+<pin name="SCK" x="441.96" y="146.05" visible="pin"/>
+<text x="445.77" y="143.51" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">5</text>
+<pin name="CE0" x="441.96" y="143.51" visible="pin"/>
+<text x="445.77" y="140.97" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">6</text>
+<pin name="CS" x="441.96" y="140.97" visible="pin"/>
+<text x="445.77" y="138.43" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">7</text>
+<pin name="RST" x="441.96" y="138.43" visible="pin"/>
+<text x="445.77" y="135.89" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">8</text>
+<pin name="BUSY" x="441.96" y="135.89" visible="pin"/>
+<wire x1="449.58" y1="130.81" x2="449.58" y2="158.75" width="0.254" layer="94"/>
+<wire x1="449.58" y1="130.81" x2="464.82" y2="130.81" width="0.254" layer="94"/>
+<wire x1="449.58" y1="158.75" x2="464.82" y2="158.75" width="0.254" layer="94"/>
+<wire x1="464.82" y1="158.75" x2="464.82" y2="130.81" width="0.254" layer="94"/>
+<text x="449.58" y="158.75" size="2.54" layer="95" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CC2640_MODULE_1_N">
+<description>Original name &lt;b&gt;CC2640_Module_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="88.9" y="208.28" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">1</text>
+<pin name="GND@1" x="85.09" y="208.28" visible="pin"/>
+<text x="88.9" y="205.74" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">2</text>
+<pin name="GND@2" x="85.09" y="205.74" visible="pin"/>
+<text x="88.9" y="193.04" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">3</text>
+<pin name="GND@3" x="85.09" y="193.04" visible="pin"/>
+<text x="88.9" y="190.5" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">4</text>
+<pin name="DIO_0" x="85.09" y="190.5" visible="pin"/>
+<text x="88.9" y="187.96" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">5</text>
+<pin name="DIO_1" x="85.09" y="187.96" visible="pin"/>
+<text x="88.9" y="185.42" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">6</text>
+<pin name="DIO_2" x="85.09" y="185.42" visible="pin"/>
+<text x="88.9" y="182.88" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">7</text>
+<pin name="DIO_3" x="85.09" y="182.88" visible="pin"/>
+<text x="88.9" y="180.34" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">8</text>
+<pin name="DIO_4" x="85.09" y="180.34" visible="pin"/>
+<text x="88.9" y="177.8" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">9</text>
+<pin name="DIO_5" x="85.09" y="177.8" visible="pin"/>
+<text x="88.9" y="175.26" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">10</text>
+<pin name="DIO_6" x="85.09" y="175.26" visible="pin"/>
+<text x="88.9" y="172.72" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">11</text>
+<pin name="DIO_7" x="85.09" y="172.72" visible="pin"/>
+<text x="88.9" y="170.18" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">12</text>
+<pin name="DIO_8" x="85.09" y="170.18" visible="pin"/>
+<text x="88.9" y="167.64" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">13</text>
+<pin name="DIO_9" x="85.09" y="167.64" visible="pin"/>
+<text x="88.9" y="165.1" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">14</text>
+<pin name="DIO_10" x="85.09" y="165.1" visible="pin"/>
+<text x="88.9" y="162.56" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">15</text>
+<pin name="DIO_11" x="85.09" y="162.56" visible="pin"/>
+<text x="110.49" y="151.13" size="2.3114" layer="93" font="vector" ratio="10" rot="SR270" align="bottom-center">16</text>
+<pin name="DIO_12" x="110.49" y="147.32" visible="pin" rot="R90"/>
+<text x="113.03" y="151.13" size="2.3114" layer="93" font="vector" ratio="10" rot="SR270" align="bottom-center">17</text>
+<pin name="DIO_13" x="113.03" y="147.32" visible="pin" rot="R90"/>
+<text x="115.57" y="151.13" size="2.3114" layer="93" font="vector" ratio="10" rot="SR270" align="bottom-center">18</text>
+<pin name="DIO_14" x="115.57" y="147.32" visible="pin" rot="R90"/>
+<text x="118.11" y="151.13" size="2.3114" layer="93" font="vector" ratio="10" rot="SR270" align="bottom-center">19</text>
+<pin name="DIO_15" x="118.11" y="147.32" visible="pin" rot="R90"/>
+<text x="120.65" y="151.13" size="2.3114" layer="93" font="vector" ratio="10" rot="SR270" align="bottom-center">20</text>
+<pin name="JTAG_TMS" x="120.65" y="147.32" visible="pin" rot="R90"/>
+<text x="123.19" y="151.13" size="2.3114" layer="93" font="vector" ratio="10" rot="SR270" align="bottom-center">21</text>
+<pin name="JTAG_TCK" x="123.19" y="147.32" visible="pin" rot="R90"/>
+<text x="125.73" y="151.13" size="2.3114" layer="93" font="vector" ratio="10" rot="SR270" align="bottom-center">22</text>
+<pin name="DIO_16" x="125.73" y="147.32" visible="pin" rot="R90"/>
+<text x="128.27" y="151.13" size="2.3114" layer="93" font="vector" ratio="10" rot="SR270" align="bottom-center">23</text>
+<pin name="DIO_17" x="128.27" y="147.32" visible="pin" rot="R90"/>
+<text x="130.81" y="151.13" size="2.3114" layer="93" font="vector" ratio="10" rot="SR270" align="bottom-center">24</text>
+<pin name="DIO_18" x="130.81" y="147.32" visible="pin" rot="R90"/>
+<text x="133.35" y="151.13" size="2.3114" layer="93" font="vector" ratio="10" rot="SR270" align="bottom-center">25</text>
+<pin name="DIO_19" x="133.35" y="147.32" visible="pin" rot="R90"/>
+<text x="135.89" y="151.13" size="2.3114" layer="93" font="vector" ratio="10" rot="SR270" align="bottom-center">26</text>
+<pin name="DIO_20" x="135.89" y="147.32" visible="pin" rot="R90"/>
+<text x="138.43" y="151.13" size="2.3114" layer="93" font="vector" ratio="10" rot="SR270" align="bottom-center">27</text>
+<pin name="GND@4" x="138.43" y="147.32" visible="pin" rot="R90"/>
+<text x="160.02" y="162.56" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">28</text>
+<pin name="DIO_21" x="163.83" y="162.56" visible="pin" rot="R180"/>
+<text x="160.02" y="165.1" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">29</text>
+<pin name="VCC" x="163.83" y="165.1" visible="pin" rot="R180"/>
+<text x="160.02" y="167.64" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">30</text>
+<pin name="DIO_22" x="163.83" y="167.64" visible="pin" rot="R180"/>
+<text x="160.02" y="170.18" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">31</text>
+<pin name="DIO_23" x="163.83" y="170.18" visible="pin" rot="R180"/>
+<text x="160.02" y="172.72" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">32</text>
+<pin name="NRESET" x="163.83" y="172.72" visible="pin" rot="R180"/>
+<text x="160.02" y="175.26" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">33</text>
+<pin name="DIO_24" x="163.83" y="175.26" visible="pin" rot="R180"/>
+<text x="160.02" y="177.8" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">34</text>
+<pin name="DIO_25" x="163.83" y="177.8" visible="pin" rot="R180"/>
+<text x="160.02" y="180.34" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">35</text>
+<pin name="DIO_26" x="163.83" y="180.34" visible="pin" rot="R180"/>
+<text x="160.02" y="182.88" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">36</text>
+<pin name="DIO_27" x="163.83" y="182.88" visible="pin" rot="R180"/>
+<text x="160.02" y="185.42" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">37</text>
+<pin name="DIO_28" x="163.83" y="185.42" visible="pin" rot="R180"/>
+<text x="160.02" y="187.96" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">38</text>
+<pin name="DIO_29" x="163.83" y="187.96" visible="pin" rot="R180"/>
+<text x="160.02" y="190.5" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">39</text>
+<pin name="DIO_30" x="163.83" y="190.5" visible="pin" rot="R180"/>
+<text x="160.02" y="193.04" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">40</text>
+<pin name="GND@5" x="163.83" y="193.04" visible="pin" rot="R180"/>
+<text x="160.02" y="205.74" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">41</text>
+<pin name="GND@6" x="163.83" y="205.74" visible="pin" rot="R180"/>
+<text x="160.02" y="208.28" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">42</text>
+<pin name="GND@7" x="163.83" y="208.28" visible="pin" rot="R180"/>
+<wire x1="92.71" y1="154.94" x2="92.71" y2="213.36" width="0.254" layer="94"/>
+<wire x1="92.71" y1="154.94" x2="156.21" y2="154.94" width="0.254" layer="94"/>
+<wire x1="92.71" y1="213.36" x2="156.21" y2="213.36" width="0.254" layer="94"/>
+<wire x1="156.21" y1="213.36" x2="156.21" y2="154.94" width="0.254" layer="94"/>
+<text x="92.71" y="213.36" size="2.54" layer="95" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="SX1280_1_N">
+<description>Original name &lt;b&gt;SX1280_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="284.48" y="212.09" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">1</text>
+<pin name="VR_PA" x="280.67" y="212.09" visible="pin"/>
+<text x="284.48" y="209.55" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">2</text>
+<pin name="VDD_IN" x="280.67" y="209.55" visible="pin"/>
+<text x="284.48" y="207.01" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">3</text>
+<pin name="NRESET" x="280.67" y="207.01" visible="pin"/>
+<text x="284.48" y="204.47" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">4</text>
+<pin name="XTA" x="280.67" y="204.47" visible="pin"/>
+<text x="284.48" y="201.93" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">5</text>
+<pin name="GND@1" x="280.67" y="201.93" visible="pin"/>
+<text x="284.48" y="199.39" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">6</text>
+<pin name="XTB" x="280.67" y="199.39" visible="pin"/>
+<text x="284.48" y="196.85" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">7</text>
+<pin name="BUSY" x="280.67" y="196.85" visible="pin"/>
+<text x="284.48" y="194.31" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">8</text>
+<pin name="DIO1" x="280.67" y="194.31" visible="pin"/>
+<text x="284.48" y="191.77" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">9</text>
+<pin name="DIO2" x="280.67" y="191.77" visible="pin"/>
+<text x="284.48" y="189.23" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">10</text>
+<pin name="DIO3" x="280.67" y="189.23" visible="pin"/>
+<text x="284.48" y="186.69" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">11</text>
+<pin name="VBAT_IO" x="280.67" y="186.69" visible="pin"/>
+<text x="284.48" y="184.15" size="2.3114" layer="93" font="vector" ratio="10" rot="SR180" align="top-center">12</text>
+<pin name="DCC_FB" x="280.67" y="184.15" visible="pin"/>
+<text x="330.2" y="184.15" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">13</text>
+<pin name="GND@2" x="334.01" y="184.15" visible="pin" rot="R180"/>
+<text x="330.2" y="186.69" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">14</text>
+<pin name="DCC_SW" x="334.01" y="186.69" visible="pin" rot="R180"/>
+<text x="330.2" y="189.23" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">15</text>
+<pin name="VBAT" x="334.01" y="189.23" visible="pin" rot="R180"/>
+<text x="330.2" y="191.77" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">16</text>
+<pin name="MISO_TX" x="334.01" y="191.77" visible="pin" rot="R180"/>
+<text x="330.2" y="194.31" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">17</text>
+<pin name="MOSI_RX" x="334.01" y="194.31" visible="pin" rot="R180"/>
+<text x="330.2" y="196.85" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">18</text>
+<pin name="SCK_RTSN" x="334.01" y="196.85" visible="pin" rot="R180"/>
+<text x="330.2" y="199.39" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">19</text>
+<pin name="NSS_CTS" x="334.01" y="199.39" visible="pin" rot="R180"/>
+<text x="330.2" y="201.93" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">20</text>
+<pin name="GND@3" x="334.01" y="201.93" visible="pin" rot="R180"/>
+<text x="330.2" y="204.47" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">21</text>
+<pin name="GND@4" x="334.01" y="204.47" visible="pin" rot="R180"/>
+<text x="330.2" y="207.01" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">22</text>
+<pin name="RFIO" x="334.01" y="207.01" visible="pin" rot="R180"/>
+<text x="330.2" y="209.55" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">23</text>
+<pin name="GND@5" x="334.01" y="209.55" visible="pin" rot="R180"/>
+<text x="330.2" y="212.09" size="2.3114" layer="93" font="vector" ratio="10" rot="SR0" align="bottom-center">24</text>
+<pin name="GND@6" x="334.01" y="212.09" visible="pin" rot="R180"/>
+<wire x1="288.29" y1="179.07" x2="288.29" y2="217.17" width="0.254" layer="94"/>
+<wire x1="288.29" y1="179.07" x2="326.39" y2="179.07" width="0.254" layer="94"/>
+<wire x1="288.29" y1="217.17" x2="326.39" y2="217.17" width="0.254" layer="94"/>
+<wire x1="326.39" y1="217.17" x2="326.39" y2="179.07" width="0.254" layer="94"/>
+<text x="288.29" y="217.17" size="2.54" layer="95" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="VCC_1_N">
+<description>Original name &lt;b&gt;VCC_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="PWR" x="0" y="0" visible="off" length="short" direction="pwr"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.381" layer="94"/>
+<text x="0" y="0" size="2.54" layer="95" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="0" y="0" size="2.54" layer="96" font="vector" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="GND_1_N">
+<description>Original name &lt;b&gt;GND_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="GND" x="0" y="0" visible="off" length="short" direction="pwr"/>
+<wire x1="2.794" y1="2.54" x2="2.794" y2="-2.54" width="0.381" layer="94"/>
+<wire x1="3.556" y1="1.778" x2="3.556" y2="-1.778" width="0.381" layer="94"/>
+<wire x1="4.318" y1="1.016" x2="4.318" y2="-1.016" width="0.381" layer="94"/>
+<wire x1="5.08" y1="0.254" x2="5.08" y2="-0.254" width="0.381" layer="94"/>
+<text x="0" y="0" size="2.54" layer="95" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="0" y="0" size="2.54" layer="96" font="vector" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="3.3V_1_N">
+<description>Original name &lt;b&gt;3.3V_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="PWR" x="0" y="0" visible="off" length="short" direction="pwr"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.381" layer="94"/>
+<text x="0" y="0" size="2.54" layer="95" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="0" y="0" size="2.54" layer="96" font="vector" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="VCC" prefix="P">
+<gates>
+<gate name="G1" symbol="VCC_1_N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GND" prefix="P">
+<gates>
+<gate name="G1" symbol="GND_1_N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3.3V" prefix="P">
+<gates>
+<gate name="G1" symbol="3.3V_1_N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
