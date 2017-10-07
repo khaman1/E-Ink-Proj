@@ -25,7 +25,7 @@
 #include "imagedata.h"
 #include "LCD_funcs.h"
 #include "LCD_Chat_funcs.h"
-
+#include "BtnScan.h"
 
 /**
   * Due to RAM not enough in Arduino UNO, a frame buffer is not allowed.
@@ -40,7 +40,7 @@ EInk_Chat ec(&LCDScreen, &LCDMemory);
 
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(9600);
+  Serial.begin(115200);
   if (LCDMemory.Init(lut_full_update) != 0) {
       Serial.print("e-Paper init failed");
       return;
@@ -56,8 +56,14 @@ void setup() {
 }
 
 void loop() {
+
+  char customKey = customKeypad.getKey();
+  
+  if (customKey){
+    Serial.println(customKey);
+  }
   
   ec.startChat();
-  delay(100);
+  //delay(100);
 }
 
