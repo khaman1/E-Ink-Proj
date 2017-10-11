@@ -42,60 +42,65 @@ void EInk_Chat::startChat()
 {
   switch(this->CHAT_STATE)
   {
-    case STATE0:   // search for devices
-      LCD_ClearAll(*this->LCDMemory);
-      searchDevices();      
+    case STATE0:   // Clear the screen
+      LCD_ClearAll(*this->LCDMemory);     
+      BluetoothSearch(); // start the search by Bluetooth
       this->CHAT_STATE = STATE1_1;
       break;
 
-    case STATE1_1: // Initialization for the chat
-      LCD_ClearAll(*this->LCDMemory);
-      ChatFrame("Kha's S7 Edge");
-
-      // Init posX posY
-      this->posX = 45;
-      this->posY = 3;
+    case STATE1_1: // Search for devices;
+      searchDevices();
+      break;
       
-      this->MESSAGE_STATUS = 0;
-      //this->TEXT = "HELLO PC";
-      this->CHAT_STATE = STATE1_2;
-      break;
 
-    case STATE1_2:
-      if(this->MESSAGE_STATUS == 0)
-      {
-        newLineChat("Hello PC", RIGHT_ALIGN, COLORED);
-
-        newLineChat("Hello Kha", LEFT_ALIGN, UNCOLORED);
-
-        newLineChat("How are you?", RIGHT_ALIGN, COLORED);
-        newLineChat("I'm super great!", LEFT_ALIGN, UNCOLORED);
-
-        newLineChat("Wanna meet tonight?", RIGHT_ALIGN, COLORED);
-        newLineChat("Absolutely, man!", LEFT_ALIGN, UNCOLORED);
-  
-        newLineChat("Where can I reach you?", RIGHT_ALIGN, COLORED);
-        newLineChat("Denver downtown", LEFT_ALIGN, UNCOLORED);
-
-        newLineChat("See you there. Bye!", RIGHT_ALIGN, COLORED);
-        newLineChat("Bye", LEFT_ALIGN, UNCOLORED);
-
-        LCD_Show(*this->LCDMemory);
-
-        delay(2000);
-
-        //LCD_Show(*this->LCDMemory);
-
-        //LCD_ClearAll(*this->LCDMemory);
-
-        //ChatFrame("Kha's S7 Edge");
-        //newLineChat("HELLO PC", RIGHT_ALIGN, COLORED);
-        //newLineChat("Hello Kha", LEFT_ALIGN, UNCOLORED);
-        
-        //LCD_Show(*this->LCDMemory);
-        this->MESSAGE_STATUS = 1;
-      }
-      break;
+//    case STATE1_1: // Initialization for the chat
+//      LCD_ClearAll(*this->LCDMemory);
+//      ChatFrame("Kha's S7 Edge");
+//
+//      // Init posX posY
+//      this->posX = 45;
+//      this->posY = 3;
+//      
+//      this->MESSAGE_STATUS = 0;
+//      //this->TEXT = "HELLO PC";
+//      this->CHAT_STATE = STATE1_2;
+//      break;
+//
+//    case STATE1_2:
+//      if(this->MESSAGE_STATUS == 0)
+//      {
+//        newLineChat("Hello PC", RIGHT_ALIGN, COLORED);
+//
+//        newLineChat("Hello Kha", LEFT_ALIGN, UNCOLORED);
+//
+//        newLineChat("How are you?", RIGHT_ALIGN, COLORED);
+//        newLineChat("I'm super great!", LEFT_ALIGN, UNCOLORED);
+//
+//        newLineChat("Wanna meet tonight?", RIGHT_ALIGN, COLORED);
+//        newLineChat("Absolutely, man!", LEFT_ALIGN, UNCOLORED);
+//  
+//        newLineChat("Where can I reach you?", RIGHT_ALIGN, COLORED);
+//        newLineChat("Denver downtown", LEFT_ALIGN, UNCOLORED);
+//
+//        newLineChat("See you there. Bye!", RIGHT_ALIGN, COLORED);
+//        newLineChat("Bye", LEFT_ALIGN, UNCOLORED);
+//
+//        LCD_Show(*this->LCDMemory);
+//
+//        delay(2000);
+//
+//        //LCD_Show(*this->LCDMemory);
+//
+//        //LCD_ClearAll(*this->LCDMemory);
+//
+//        //ChatFrame("Kha's S7 Edge");
+//        //newLineChat("HELLO PC", RIGHT_ALIGN, COLORED);
+//        //newLineChat("Hello Kha", LEFT_ALIGN, UNCOLORED);
+//        
+//        //LCD_Show(*this->LCDMemory);
+//        this->MESSAGE_STATUS = 1;
+//      }
+//      break;
     default:
       break;
   }

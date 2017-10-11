@@ -10,6 +10,9 @@ void periphInit()
   
   // initialize Bluetooth
   BluetoothInit();
+
+  // LCD Intro
+  lcdIntro();
   
   // initialize semaphore for Serial
   if ( xSerialSemaphore == NULL )  // Check to confirm that the Serial Semaphore has not already been created.

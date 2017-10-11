@@ -22,14 +22,6 @@ void TaskString(void *pvParameters)  // This is a task.
         
     }
     
-    
-    // if(btnString!="")
-    // {
-        
-    // }
-    
-    //Serial.print("TaskString running... ");
-    //Serial.println(btnString);
     vTaskDelay( 10 / portTICK_PERIOD_MS ); // wait for one second
   }
 }

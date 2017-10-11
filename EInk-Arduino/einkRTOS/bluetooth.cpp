@@ -38,6 +38,27 @@ void BluetoothReset()
   BluetoothSerial.println("AT+RESET");
 }
 
+void BluetoothSearch()
+{
+  BluetoothSerial.println("AT+INIT");
+  BluetoothSerial.println("AT+ROLE=1");
+  BluetoothSerial.println("AT+CMODE=1");
+  BluetoothSerial.println("AT+INQ");
+
+  int i;
+  char inChar;
+
+  for(i=0;i<10;i++)
+  {
+    inChar = (char)BluetoothSerial.read();
+    if(inChar !=-1)
+    {
+      Serial.println(inChar);
+    }
+  }
+}
+
+
 
 
 void TaskBluetooth(void *pvParameters)  // This is a task.

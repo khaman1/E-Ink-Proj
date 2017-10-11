@@ -1,4 +1,7 @@
 /**
+ *  @filename   :   imagedata.h
+ *  @brief      :   head file for imagedata.cpp
+ *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documnetation files (the "Software"), to deal
  * in the Software without restriction, including without limitation the rights
@@ -17,53 +20,16 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-
+#ifndef LIB_H
+#define LIB_H
 
 #include <SPI.h>
 #include <epd1in54.h>
-#include <epdif.h>
-#include "imagedata.h"
+#include <epdpaint.h>
+#include <fonts.h>
 #include "LCD_funcs.h"
-#include "LCD_Chat_funcs.h"
-#include "BtnScan.h"
+#include "LCD_Messenger.h"
+#include "button.h"
+#include "BluetoothHC05.h"
 
-/**
-  * Due to RAM not enough in Arduino UNO, a frame buffer is not allowed.
-  * In this case, a smaller image buffer is allocated and you have to 
-  * update a partial display several times.
-  * 1 byte = 8 pixels, therefore you have to set 8*N pixels at a time.
-  */
-unsigned char image[1024];
-Paint LCDScreen(image, 0, 0);    // width should be the multiple of 8 
-Epd LCDMemory;
-EInk_Chat ec(&LCDScreen, &LCDMemory);
-
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(115200);
-  if (LCDMemory.Init(lut_full_update) != 0) {
-      Serial.print("e-Paper init failed");
-      return;
-  }
-  
-  LCD_LoadImage(&LCDMemory, gImage_Email);
-  delay(500);
-
-  //LCD_ClearAll(LCDMemory);
-  //ec.drawPtr(50,50,COLORED);
-  
-  
-}
-
-void loop() {
-
-  char customKey = customKeypad.getKey();
-  
-  if (customKey){
-    Serial.println(customKey);
-  }
-  
-  ec.startChat();
-  //delay(100);
-}
-
+#endif

@@ -4,10 +4,18 @@
 
 void taskInit()
 {   
+  // xTaskCreate(
+  //   TaskBluetooth
+  //   ,  (const portCHAR *)"Bluetooth"   // A name just for humans
+  //   ,  1024  // This stack size can be checked & adjusted by reading the Stack Highwater
+  //   ,  NULL
+  //   ,  0  // Priority, with 3 (configMAX_PRIORITIES - 1) being the highest, and 0 being the lowest.
+  //   ,  NULL );  
+
   xTaskCreate(
-    TaskString
-    ,  (const portCHAR *)"String Analyze"   // A name just for humans
-    ,  128  // This stack size can be checked & adjusted by reading the Stack Highwater
+    TaskLCD
+    ,  (const portCHAR *)"LCD"   // A name just for humans
+    ,  1024  // This stack size can be checked & adjusted by reading the Stack Highwater
     ,  NULL
     ,  0  // Priority, with 3 (configMAX_PRIORITIES - 1) being the highest, and 0 being the lowest.
     ,  NULL );  
