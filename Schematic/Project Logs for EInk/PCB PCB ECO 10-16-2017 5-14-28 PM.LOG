@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=3.3V Pin=C20-2
+Added Pin To Net: NetName=RESET Pin=C20-2

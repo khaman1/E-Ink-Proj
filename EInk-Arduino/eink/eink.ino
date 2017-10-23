@@ -11,7 +11,6 @@
 /**
  *  @filename   :   epd1in54-demo.ino
  *  @brief      :   1.54inch e-paper display demo
- *  @author     :   Yehui from Waveshare
  *
  *  Copyright (C) Waveshare     September 5 2017
  *

@@ -1,0 +1,64 @@
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/GCM188R72A102KA37.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/GCM188R72A102KA37.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Murata Electronics North America"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "GCM188R72A102KA37D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ratings"; Value = "100V; X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SCDType"; Value = "spec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-4780-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.035" (0.90mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Component: Designator=C27(SMD-0603c)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/GCM188R72A102KA37.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/GCM188R72A102KA37.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Murata Electronics North America"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "GCM188R72A102KA37D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603 (1608 metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ratings"; Value = "100V; X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SCDType"; Value = "spec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-4780-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.035" (0.90mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ROW4 Pin=,-2
+Added Pin To Net: NetName=ROW2 Pin=A-2
+Added Pin To Net: NetName=ROW4 Pin=B-2
+Added Pin To Net: NetName=GND Pin=C27-1
+Added Pin To Net: NetName=3.3V Pin=C27-2
+Added Pin To Net: NetName=ROW4 Pin=C-2
+Added Pin To Net: NetName=ROW2 Pin=D-2
+Added Pin To Net: NetName=ROW4 Pin=DOT-2
+Added Pin To Net: NetName=ROW1 Pin=E-2
+Added Pin To Net: NetName=ROW2 Pin=F-2
+Added Pin To Net: NetName=ROW3 Pin=G-2
+Added Pin To Net: NetName=ROW3 Pin=H-2
+Added Pin To Net: NetName=ROW2 Pin=I-2
+Added Pin To Net: NetName=ROW3 Pin=J-2
+Added Pin To Net: NetName=ROW3 Pin=K-2
+Added Pin To Net: NetName=ROW3 Pin=L-2
+Added Pin To Net: NetName=ROW4 Pin=M-2
+Added Pin To Net: NetName=ROW4 Pin=N-2
+Added Pin To Net: NetName=ROW2 Pin=O-2
+Added Pin To Net: NetName=ROW2 Pin=P-2
+Added Pin To Net: NetName=ROW1 Pin=Q-2
+Added Pin To Net: NetName=ROW1 Pin=R-2
+Added Pin To Net: NetName=ROW2 Pin=S-2
+Added Pin To Net: NetName=ROW1 Pin=T-2
+Added Pin To Net: NetName=5V Pin=U6-3
+Added Pin To Net: NetName=ROW1 Pin=U-2
+Added Pin To Net: NetName=ROW4 Pin=V-2
+Added Pin To Net: NetName=ROW1 Pin=W-2
+Added Pin To Net: NetName=ROW3 Pin=X-2
+Added Pin To Net: NetName=ROW1 Pin=Y-2
+Added Pin To Net: NetName=ROW3 Pin=Z-2
+Added Member To Class: ClassName=schematic Member=Component C27 approved sub OK

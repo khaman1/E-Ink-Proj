@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=3.3V Pin=C1-2
+Removed Pin From Net: NetName=3.3V Pin=C2-2
+Removed Pin From Net: NetName=3.3V Pin=C13-2
+Removed Pin From Net: NetName=3.3V Pin=R7-2
+Removed Pin From Net: NetName=3.3V Pin=R19-2
+Removed Pin From Net: NetName=3.3V Pin=R20-2
+Removed Pin From Net: NetName=3.3V Pin=U1-10
+Removed Pin From Net: NetName=3.3V Pin=U1-31
+Removed Pin From Net: NetName=3.3V Pin=U1-61
+Removed Pin From Net: NetName=3.3V Pin=U1-80
+Removed Pin From Net: NetName=3.3V Pin=U1-100
+Change Component Comment : Designator=X2 Old Comment=8MHz New Comment=16MHz
+Change Component Comment : Designator=U1 Old Comment=ATmega2560-8AU-3.3V New Comment=ATmega2560-16AU
+Added Pin To Net: NetName=5V Pin=C1-2
+Added Pin To Net: NetName=5V Pin=C2-2
+Added Pin To Net: NetName=5V Pin=C13-2
+Added Pin To Net: NetName=5V Pin=R7-2
+Added Pin To Net: NetName=5V Pin=R19-2
+Added Pin To Net: NetName=5V Pin=R20-2
+Added Pin To Net: NetName=5V Pin=U1-10
+Added Pin To Net: NetName=5V Pin=U1-31
+Added Pin To Net: NetName=5V Pin=U1-61
+Added Pin To Net: NetName=5V Pin=U1-80
+Added Pin To Net: NetName=5V Pin=U1-100
